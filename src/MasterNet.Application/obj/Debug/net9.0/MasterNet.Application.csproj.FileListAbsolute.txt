@@ -1,0 +1,17 @@
+A:\Projects\Dotnet\MasterNet\src\MasterNet.Application\bin\Debug\net9.0\MasterNet.Application.deps.json
+A:\Projects\Dotnet\MasterNet\src\MasterNet.Application\bin\Debug\net9.0\MasterNet.Application.dll
+A:\Projects\Dotnet\MasterNet\src\MasterNet.Application\bin\Debug\net9.0\MasterNet.Application.pdb
+A:\Projects\Dotnet\MasterNet\src\MasterNet.Application\bin\Debug\net9.0\MasterNet.Domain.dll
+A:\Projects\Dotnet\MasterNet\src\MasterNet.Application\bin\Debug\net9.0\MasterNet.Persistence.dll
+A:\Projects\Dotnet\MasterNet\src\MasterNet.Application\bin\Debug\net9.0\MasterNet.Domain.pdb
+A:\Projects\Dotnet\MasterNet\src\MasterNet.Application\bin\Debug\net9.0\MasterNet.Persistence.pdb
+A:\Projects\Dotnet\MasterNet\src\MasterNet.Application\obj\Debug\net9.0\MasterNet.Application.csproj.AssemblyReference.cache
+A:\Projects\Dotnet\MasterNet\src\MasterNet.Application\obj\Debug\net9.0\MasterNet.Application.GeneratedMSBuildEditorConfig.editorconfig
+A:\Projects\Dotnet\MasterNet\src\MasterNet.Application\obj\Debug\net9.0\MasterNet.Application.AssemblyInfoInputs.cache
+A:\Projects\Dotnet\MasterNet\src\MasterNet.Application\obj\Debug\net9.0\MasterNet.Application.AssemblyInfo.cs
+A:\Projects\Dotnet\MasterNet\src\MasterNet.Application\obj\Debug\net9.0\MasterNet.Application.csproj.CoreCompileInputs.cache
+A:\Projects\Dotnet\MasterNet\src\MasterNet.Application\obj\Debug\net9.0\MasterNe.3F085376.Up2Date
+A:\Projects\Dotnet\MasterNet\src\MasterNet.Application\obj\Debug\net9.0\MasterNet.Application.dll
+A:\Projects\Dotnet\MasterNet\src\MasterNet.Application\obj\Debug\net9.0\refint\MasterNet.Application.dll
+A:\Projects\Dotnet\MasterNet\src\MasterNet.Application\obj\Debug\net9.0\MasterNet.Application.pdb
+A:\Projects\Dotnet\MasterNet\src\MasterNet.Application\obj\Debug\net9.0\ref\MasterNet.Application.dll
