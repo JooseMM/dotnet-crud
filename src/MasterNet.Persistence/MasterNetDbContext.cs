@@ -7,7 +7,7 @@ using MasterNet.Persistence.Models;
 
 namespace MasterNet.Persistence;
 
-public class MasterNetDbContext : IdentityDbContext<AppUsers>
+public class MasterNetDbContext : IdentityDbContext<AppUser>
 {
     public MasterNetDbContext(DbContextOptions<MasterNetDbContext> options) : base(options) 
     {
