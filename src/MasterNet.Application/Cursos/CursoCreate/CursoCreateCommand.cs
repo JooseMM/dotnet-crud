@@ -1,16 +1,17 @@
 using MediatR;
 using MasterNet.Persistence;
 using MasterNet.Domain;
+using MasterNet.Application.Core;
 
 namespace MasterNet.Application.Cursos.CursosCreate;
 
 public class CursoCreateCommand
 {
     public record CursoCreateCommandRequest(CursoCreateRequest cursoCreateRequest)
-    : IRequest<Guid>;
+    : IRequest<Result<Guid>>;
 
     internal class CursoCreateCommandHandler 
-    : IRequestHandler<CursoCreateCommandRequest, Guid>
+    : IRequestHandler<CursoCreateCommandRequest, Result<Guid>>
     {
 	private readonly MasterNetDbContext _context;
 
@@ -19,7 +20,7 @@ public class CursoCreateCommand
 	    this._context = context;
 	}
 
-	public async Task<Guid> Handle(
+	public async Task<Result<Guid>> Handle(
 		CursoCreateCommandRequest request,
 		CancellationToken cancellationToken
 	    )
@@ -34,7 +35,7 @@ public class CursoCreateCommand
 	    _context.Add(curso);
 	    await _context.SaveChangesAsync(cancellationToken);
 
-	    return curso.Id;
+	    return Result<Guid>.Success(curso.Id);
 	}
 
     }

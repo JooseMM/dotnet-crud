@@ -4,7 +4,7 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using MasterNet.Application.Cursos.CursosCreate;
 using MasterNet.Application.Cursos.CursosReporteExcel;
-
+using MasterNet.Application.Core;
 [ApiController]
 [Route("api/cursos")]
 public class CursosControllers : ControllerBase
@@ -17,11 +17,10 @@ public class CursosControllers : ControllerBase
     }
 
     [HttpPost("create")]
-    public async Task<ActionResult<Guid>> CursoCreate([FromForm] CursoCreateRequest request, CancellationToken cancellationToken)
+    public async Task<ActionResult<Result<Guid>>> CursoCreate([FromForm] CursoCreateRequest request, CancellationToken cancellationToken)
     {
 	var command = new CursoCreateCommand.CursoCreateCommandRequest(request);
-	var result = await _sender.Send(command);
-	return Ok(result);
+	return await _sender.Send(command);
     }
 
     [HttpGet("reporte")]
